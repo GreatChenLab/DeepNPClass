@@ -1,0 +1,5 @@
+SMILES,Pathway,Super_class,Class
+C=C1CC23CC1CCC2C1(C)CCCC(C)(C(=O)O)C1C3C(=O)O,Terpenoids,Diterpenoids,Gibberellins
+CCCCCCCC/C=C\CCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\CCCCCCCCC)COP(=O)(O)OC[C@@H](O)CO,Fatty acids,Glycerophospholipids,Glycerophosphoglycerols
+CC1CC2(CC(C)C3C(CC4(C)CCCC5C6=CC(O)(CCC34C)OC6=CC(=O)OC5(C)C)O2)OC1=O,Terpenoids,Triterpenoids,Bauerane triterpenoids
+CCCCCCCCCCC/C=C\CCCCC(=O)OCCCCCCCCCCCCCCCC,Fatty acids,Fatty esters,Wax monoesters
