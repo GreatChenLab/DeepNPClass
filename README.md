@@ -12,7 +12,7 @@ conda activate deepnpclass
 pip install -r requirements.txt
 
 # Prepare Your Input Data
-Create a CSV file (e.g., input.csv) that contains a column named smiles with your SMILES strings.
+Create a CSV file (e.g., test_data_mini.csv) that contains a column named smiles with your SMILES strings.
 ```
 SMILES
 C=C1CC23CC1CCC2C1(C)CCCC(C)(C(=O)O)C1C3C(=O)O
