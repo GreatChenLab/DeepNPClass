@@ -11,20 +11,10 @@ import os
 
 def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y, 
                 model_class, model_params, device, save_dir, **kwargs):
-    """
-    执行五折交叉验证训练。
-    Args:
-        ... (各种输入)
-        save_dir: 保存最佳模型的目录
-    Returns:
-        best_fold: 表现最好的折数
-    """
-    # 注意：将硬编码的路径 '/home/maoyufei/37_fold{fold+1}.pth' 替换为 os.path.join(save_dir, f'model_fold{fold+1}.pth')
     kf = KFold(n_splits=5, shuffle=True, random_state=27)
     fold_results = []
-    best_val_f1_overall = -1  # 用于记录全局最高的 F1
-    best_fold = 1           # 用于记录 F1 最高的那一折
-
+    best_val_f1_overall = -1  
+    best_fold = 1           
     for fold, (train_idx, val_idx) in enumerate(kf.split(train_graphs)):
         print(f"Fold {fold+1}")
 
@@ -62,7 +52,7 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         model.to(device)
         best_val_loss = float('inf')
-        best_val_f1_for_this_fold = 0.0  # 记录当前折的最佳 F1
+        best_val_f1_for_this_fold = 0.0  
         patience = 10
         counter  = 0
 
@@ -119,11 +109,8 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
               f'Macro-Prec: {val_prec:.4f}, G-mean: {g_mean:.4f}, '
               f'CosineSim: {val_cosine_sim:.4f}, mAP: {val_map:.4f}')
 
-            # --- 同时监控 Val Loss 和 Val F1 ---
-            # 如果当前验证F1比这折之前记录的最好F1还要高，则更新并保存模型
             if val_f1_macro > best_val_f1_for_this_fold:
                 best_val_f1_for_this_fold = val_f1_macro
-                # 保存模型
                 model_path = os.path.join(save_dir, f'model_fold{fold+1}.pth')
                 torch.save(model.state_dict(), model_path)
                 counter = 0
@@ -133,45 +120,37 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
                 print(f'Early stopping at epoch {epoch+1}')
                 break
 
-        # 记录该折的最终最佳结果
         fold_results.append({
         'best_epoch': epoch,
         'best_val_loss': best_val_loss,
-        'best_val_f1': best_val_f1_for_this_fold,  # 使用这折的最佳F1
+        'best_val_f1': best_val_f1_for_this_fold,  
         'best_val_prec': val_prec,
         'best_val_recall': val_recalls,
         'best_val_cosine_sim': val_cosine_sim,
         'best_val_map': val_map
         })
 
-    # --- 更新全局最佳模型信息 ---
         if best_val_f1_for_this_fold > best_val_f1_overall:
             best_val_f1_overall = best_val_f1_for_this_fold
-            best_fold = fold + 1  # fold是0索引，所以+1
+            best_fold = fold + 1  
 
         print(f"Fold {fold+1} completed. Best Val F1: {best_val_f1_for_this_fold:.4f}\n")
 
-    # 打印五折结果
     print("\n" + "="*50)
-    print("五折交叉验证结果汇总:")
+    print("Result summary:")
     for fold, res in enumerate(fold_results):
         print(f"Fold {fold+1} - Best Val F1: {res['best_val_f1']:.4f}, "
           f"Best Val mAP: {res['best_val_map']:.4f}, "
           f"Best Val CosineSim: {res['best_val_cosine_sim']:.4f}")
-    print(f"\n表现最好的模型来自 Fold {best_fold} (Macro-F1: {best_val_f1_overall:.4f})")
+    print(f"\nThe best-performing model comes from Fold {best_fold} (Macro-F1: {best_val_f1_overall:.4f})")
     print("="*50)
 
-    # -------------------- 最终测试评估 --------------------
     test_dataset = MolDataset(test_graphs, test_fp, test_y)
     test_loader  = DataLoader(test_dataset, batch_size=64, shuffle=False)
 
-    # --- 加载 F1 最高的那一折的模型 ---
     best_model_path = os.path.join(save_dir, f'model_fold{best_fold}.pth')
-    print(f"\n加载表现最好的模型: {best_model_path}")
+    print(f"\nLoad the model with the best performance: {best_model_path}")
 
-    # 重新实例化模型（或确保模型结构一致）
-    # model = GINGGNNModel(node_features_dim, hidden_dim, output_dim,
-    #                  fp_dim, dropout_rate)
     model = model_class(**model_params)  
     model.load_state_dict(torch.load(best_model_path, map_location=device))
     model.to(device)
@@ -205,7 +184,7 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
     test_prec      = precision_score(all_test_labels, all_test_preds, average='macro')
     test_recall_macro = recall_score(all_test_labels, all_test_preds, average='macro')
 
-    print("\n最终评估结果:")
+    print("\nFinal assessment result:")
     print(f"Best Model from Fold: {best_fold}")
     print(f"Test Macro-F1:    {test_f1_macro:.4f}")
     print(f"Test Weighted-F1: {test_f1_weight:.4f}")
