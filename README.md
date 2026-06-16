@@ -1,5 +1,5 @@
 # DeepNPClass: A Hybrid Deep Learning Model Integrating Molecular Graph and Fingerprint Features for Hierarchical Natural Product Classification
-DeepNPClass is a deep learning-based tool that automatically classify natural product molecules. Given a CSV file containing SMILES strings, this tool predicts their chemical classes (e.g., alkaloids, flavonoids, terpenoids, etc.).
+DeepNPClass is a deep learning-based tool that automatically classify natural products. Given a CSV file containing SMILES strings, this tool predicts their chemical classes (e.g., alkaloids, flavonoids, terpenoids, etc.).
 
 # Environment
 1.The project relies on dependencies specified in requirements.txt. We recommend using Conda to manage the environment.
@@ -12,7 +12,7 @@ conda activate deepnpclass
 pip install -r requirements.txt
 
 # Prepare Your Input Data
-Create a CSV file (e.g., test_data_mini.csv) that contains a column named smiles with your SMILES strings.
+Create a CSV file (e.g., test_data_mini.csv) that contains a column named SMILES with your SMILES strings.
 ```
 SMILES
 C=C1CC23CC1CCC2C1(C)CCCC(C)(C(=O)O)C1C3C(=O)O
