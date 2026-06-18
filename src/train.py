@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import scipy.stats
 import os
 
-def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y, 
+def train_model(train_graphs, train_fp, train_y, validation_graphs, validation_fp, validation_y, 
                 model_class, model_params, device, save_dir, **kwargs):
     
     kf = KFold(n_splits=5, shuffle=True, random_state=27)
@@ -145,8 +145,8 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
     print(f"\nThe best-performing model comes from Fold {best_fold} (Macro-F1: {best_val_f1_overall:.4f})")
     print("="*50)
 
-    test_dataset = MolDataset(test_graphs, test_fp, test_y)
-    test_loader  = DataLoader(test_dataset, batch_size=64, shuffle=False)
+    validation_dataset = MolDataset(validation_graphs, validation_fp, validation_y)
+    validation_loader  = DataLoader(validation_dataset, batch_size=64, shuffle=False)
 
     best_model_path = os.path.join(save_dir, f'model_fold{best_fold}.pth')
     print(f"\nLoad the model with the best performance: {best_model_path}")
@@ -156,41 +156,41 @@ def train_model(train_graphs, train_fp, train_y, test_graphs, test_fp, test_y,
     model.to(device)
     model.eval()
 
-    all_test_outputs, all_test_preds, all_test_labels = [], [], []
+    all_validation_outputs, all_validation_preds, all_validation_labels = [], [], []
     with torch.no_grad():
-        for batch_data, fp, y in test_loader:
+        for batch_data, fp, y in validation_loader:
             batch_data, fp, y = batch_data.to(device), fp.to(device), y.to(device)
             out = model(batch_data, fp)
             probs = torch.sigmoid(out)
             preds = (probs > 0.5).float()
-            all_test_outputs.extend(probs.cpu().numpy())
-            all_test_preds.extend(preds.cpu().numpy())
-            all_test_labels.extend(y.cpu().numpy())
+            all_validation_outputs.extend(probs.cpu().numpy())
+            all_validation_preds.extend(preds.cpu().numpy())
+            all_validation_labels.extend(y.cpu().numpy())
 
-    all_test_outputs = np.array(all_test_outputs)
-    all_test_preds  = np.array(all_test_preds)
-    all_test_labels = np.array(all_test_labels)
+    all_validation_outputs = np.array(all_validation_outputs)
+    all_validation_preds  = np.array(all_validation_preds)
+    all_validation_labels = np.array(all_validation_labels)
 
-    test_cosine_sim = F.cosine_similarity(
-        torch.tensor(all_test_outputs), 
-        torch.tensor(all_test_labels), 
+    validation_cosine_sim = F.cosine_similarity(
+        torch.tensor(all_validation_outputs), 
+        torch.tensor(all_validation_labels), 
         dim=1
     ).mean().item()
 
-    test_map = average_precision_score(all_test_labels, all_test_outputs, average='macro')
+    validation_map = average_precision_score(all_validation_labels, all_validation_outputs, average='macro')
 
-    test_f1_macro  = f1_score(all_test_labels, all_test_preds, average='macro')
-    test_f1_weight = f1_score(all_test_labels, all_test_preds, average='weighted')
-    test_prec      = precision_score(all_test_labels, all_test_preds, average='macro')
-    test_recall_macro = recall_score(all_test_labels, all_test_preds, average='macro')
+    validation_f1_macro  = f1_score(all_validation_labels, all_validation_preds, average='macro')
+    validation_f1_weight = f1_score(all_validation_labels, all_validation_preds, average='weighted')
+    validation_prec      = precision_score(all_validation_labels, all_validation_preds, average='macro')
+    validation_recall_macro = recall_score(all_validation_labels, all_validation_preds, average='macro')
 
     print("\nFinal assessment result:")
     print(f"Best Model from Fold: {best_fold}")
-    print(f"Test Macro-F1:    {test_f1_macro:.4f}")
-    print(f"Test Weighted-F1: {test_f1_weight:.4f}")
-    print(f"Test Macro-Prec:  {test_prec:.4f}")
-    print(f"Test Macro-Recall:  {test_recall_macro:.4f}")
-    print(f"Test Cosine Similarity: {test_cosine_sim:.4f}")
-    print(f"Test mAP:         {test_map:.4f}")
+    print(f"validation Macro-F1:    {validation_f1_macro:.4f}")
+    print(f"validation Weighted-F1: {validation_f1_weight:.4f}")
+    print(f"validation Macro-Prec:  {validation_prec:.4f}")
+    print(f"validation Macro-Recall:  {validation_recall_macro:.4f}")
+    print(f"validation Cosine Similarity: {validation_cosine_sim:.4f}")
+    print(f"validation mAP:         {validation_map:.4f}")
 
     return best_fold

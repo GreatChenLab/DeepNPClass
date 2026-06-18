@@ -60,39 +60,39 @@ class PredictDataset(torch.utils.data.Dataset):
     def __len__(self): return len(self.graphs)
     def __getitem__(self, idx): return self.graphs[idx], self.fps[idx]
 
-def prepare_training_data(train_csv_path, test_csv_path):
+def prepare_training_data(train_csv_path, validation_csv_path):
     train_data = pd.read_csv(train_csv_path)
-    test_data = pd.read_csv(test_csv_path)
+    validation_data = pd.read_csv(validation_csv_path)
     
     train_maccs = smiles_to_maccs(train_data['index'].tolist())
-    test_maccs  = smiles_to_maccs(test_data['index'].tolist())
+    validation_maccs  = smiles_to_maccs(validation_data['index'].tolist())
 
     train_extfp = smiles_to_extfp(train_data['index'].tolist())
-    test_extfp  = smiles_to_extfp(test_data['index'].tolist())
+    validation_extfp  = smiles_to_extfp(validation_data['index'].tolist())
 
     train_fp = torch.cat([train_extfp, train_maccs], dim=1)
-    test_fp  = torch.cat([test_extfp,  test_maccs],  dim=1)
+    validation_fp  = torch.cat([validation_extfp,  validation_maccs],  dim=1)
 
     train_smiles_list = train_data['index'].tolist()
     train_graphs = [smiles_to_graph(s) for s in train_smiles_list if smiles_to_graph(s)]
-    test_graphs = [smiles_to_graph(s) for s in test_data['index'].tolist() if smiles_to_graph(s)]
+    validation_graphs = [smiles_to_graph(s) for s in validation_data['index'].tolist() if smiles_to_graph(s)]
 
     valid_train_idx = [i for i, g in enumerate(train_graphs) if g is not None]
-    valid_test_idx  = [i for i, g in enumerate(test_graphs)  if g is not None]
+    valid_validation_idx  = [i for i, g in enumerate(validation_graphs)  if g is not None]
 
     valid_train_idx = [idx for idx in valid_train_idx if idx < len(train_fp)]
-    valid_test_idx  = [idx for idx in valid_test_idx  if idx < len(test_fp)]
+    valid_validation_idx  = [idx for idx in valid_validation_idx  if idx < len(validation_fp)]
 
     train_fp   = train_fp[valid_train_idx]
-    test_fp    = test_fp[valid_test_idx]
+    validation_fp    = validation_fp[valid_validation_idx]
     train_labels = [train_data['Pathway'].tolist()[i] for i in valid_train_idx]
-    test_labels  = [test_data['Pathway'].tolist()[i]  for i in valid_test_idx]
+    validation_labels  = [validation_data['Pathway'].tolist()[i]  for i in valid_validation_idx]
 
     mlb = MultiLabelBinarizer()
     train_y = mlb.fit_transform([[l] for l in train_labels])
-    test_y  = mlb.transform([[l] for l in test_labels])
+    validation_y  = mlb.transform([[l] for l in validation_labels])
 
-    return train_graphs, train_fp, train_y, test_graphs, test_fp, test_y, mlb
+    return train_graphs, train_fp, train_y, validation_graphs, validation_fp, validation_y, mlb
 
 def prepare_prediction_data(input_csv_path, label_column=1, mlb=None):
     data_df = pd.read_csv(input_csv_path, header=None)  
