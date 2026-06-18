@@ -8,10 +8,10 @@ if __name__ == "__main__":
     DATA_DIR = "../data"
     MODEL_SAVE_DIR = "../models"
     TRAIN_CSV = f"{DATA_DIR}/train_data.csv"
-    TEST_CSV = f"{DATA_DIR}/test_data.csv"
+    validation_CSV = f"{DATA_DIR}/validation_data.csv"
     
-    train_graphs, train_fp, train_y, test_graphs, test_fp, test_y, mlb = \
-        data_utils.prepare_training_data(TRAIN_CSV, TEST_CSV)
+    train_graphs, train_fp, train_y, validation_graphs, validation_fp, validation_y, mlb = \
+        data_utils.prepare_training_data(TRAIN_CSV, validation_CSV)
     
     with open(f"{MODEL_SAVE_DIR}/mlb.pkl", 'wb') as f:
         pickle.dump(mlb, f)
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     best_fold = train.train_model(
         train_graphs, train_fp, train_y,
-        test_graphs, test_fp, test_y,
+        validation_graphs, validation_fp, validation_y,
         model_class=model.GINGGNNModel,
         model_params=model_params,
         device=device,
