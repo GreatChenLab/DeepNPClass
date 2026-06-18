@@ -12,7 +12,7 @@ conda activate deepnpclass
 pip install -r requirements.txt
 
 # Prepare Your Input Data
-Create a CSV file (e.g., test_data_mini.csv) that contains a column with your SMILES strings.
+Create a CSV file (e.g., data/example.csv) that contains a column with your SMILES strings.
 ```
 C=C1CC23CC1CCC2C1(C)CCCC(C)(C(=O)O)C1C3C(=O)O
 CCCCCCCC/C=C\CCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\CCCCCCCCC)COP(=O)(O)OC[C@@H](O)CO
@@ -20,7 +20,7 @@ CCCCCCCC/C=C\CCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\CCCCCCCCC)COP(=O)(O)OC[C@@H
 ```
 
 # Run the Prediction
-Place your input file in the data/ directory and execute the prediction script.
+Place your input file in the data/directory and execute the prediction script.
 ```
 python -m scripts.pred_main
 ```
