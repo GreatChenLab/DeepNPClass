@@ -5651,34 +5651,12 @@ CCC(CCC(C)C1CCC2C3C\C(=N\O)C4=CC(=O)CCC4(C)C3CCC12C)C(C)C,Stigmastane steroids
 CCC(CCC(C)C1CCC2C3CC(OO)C4=CC(CCC4(C)C3CCC12C)OC1OC(CO)C(O)C(O)C1O)C(C)C,Stigmastane steroids
 CCC(CCC(C)C1CCC2C3C(O)C=C4CC(CCC4(C)C3CCC12C)OC1OC(CO)C(O)C(O)C1O)C(C)C,Stigmastane steroids
 CCC(CCC(C)C1CCC2C3C(CCC12C)C1(C)CCC(CC1=CC3=O)OC1OC(CO)C(O)C(O)C1O)C(C)C,Stigmastane steroids
-CCCCCCCCCC(O)C1CCC(O1)C1CCC(CCCCCCCCCCC(O)CC2=CC(C)OC2=O)O1,Acetogenins
-CCCC(O)C(O)CCCCCCCCC(O)C1CCC(CCCCCCCCCCC(O)CC2=CC(C)OC2=O)O1,Acetogenins
-CCCCCCCCCCCCC(O)C1CCC(O1)C(O)CCCCCCCC(=O)CCC1CC(CC(C)=O)C(=O)O1,Acetogenins
-CCCCC(O)C(O)C1CCC(O1)C(O)CCC(O)C1CCC(CCCCCCCCCCCCCCC2=CC(C)OC2=O)O1,Acetogenins
-CCCCCC(O)C1CCC(O1)C(O)CCC(O)C1CCC(CCCCC(O)CCCCCCCCCC2=CC(C)OC2=O)O1,Acetogenins
-CCCCCCCCCCCCC(O)C1CCC(O1)C(O)CCC(O)C1CCC(CCCCCC(O)CC2=CC(C)OC2=O)O1,Acetogenins
-CC1(O)C(O)C(O)C2(O)C(CCC34OC23C(O)c2cccc(O)c2C4=O)C1=O,Angucyclines
-COC(=O)c1cc2C(=O)c3c(C(=O)c2c(O)c1C(C)OC(C)=O)c(O)cc1cc(C)c(Cl)c(OC)c31,Angucyclines
-CCc1c(O)c2C(=O)c3c(O)cc4cc(C)c(Cl)c(OC)c4c3C(=O)c2cc1C(=O)OC,Angucyclines
-CC(=O)NC(CSc1cc2cc(C)cc(O)c2c2C(=O)c3cccc(O)c3C(=O)c12)C(O)=O,Angucyclines
-CCCCC\C=C\C=C\C(=O)OC1C(O)CC(OC1C)c1ccc2C(=O)c3c4OC(=O)CC(C)(O)C(=O)c4ccc3C(=O)c2c1O,Angucyclines
-CC(=O)\C=C\c1c2C(=O)c3cccc(O)c3-c2c2OC3(C)C(O)C(c4c5C(=O)c6cccc(O)c6-c5c(O)cc4C3=O)n3nc(O)c1c23,Angucyclines
-CC1OC(Oc2cccc3C(O)c4c(ccc5cc(C)cc(O)c45)C(=O)c23)C(O)C(O)C1O,Angucyclines
-Cc1ccc2c3C(=O)c4cccc(O)c4C(=O)c3ccc2c1,Angucyclines
-Cc1cc(O)c2c3C(=O)c4ccc(O)c(O)c4C(=O)c3c(O)cc2c1,Angucyclines
-OCc1cc(O)c2c3C(=O)c4cccc(O)c4C(=O)c3ccc2c1,Angucyclines
-Cc1cc(O)c2c3C(=O)c4c(O)ccc(O)c4C(=O)c3ccc2c1,Angucyclines
-COc1cccc2C(=O)c3c(ccc4cc(CO)cc(O)c34)C(=O)c12,Angucyclines
-COc1cccc2C(=O)c3c(ccc4cc(C)cc(O)c34)C(=O)c12,Angucyclines
-COc1cccc2C(=O)c3c(ccc4cc(C)cc(OC5OC(C(O)C(O)C5O)C(O)=O)c34)C(=O)c12,Angucyclines
-CC1OC(Oc2cccc3C(=O)c4c(ccc5cc(C)cc(O)c45)C(=O)c23)C(O)C(O)C1O,Angucyclines
-CC1CC(=O)C2=C(CCC34OC23C(=O)c2cccc(O)c2C4O)C1,Angucyclines
-CC1CC(=O)C2=C(CCC3(O)C(O)c4c(O)cccc4C(=O)C23)C1,Angucyclines
-CC1CC(=O)C2=C(CC(O)C3(O)C(O)c4c(O)cccc4C(=O)C23)C1O,Angucyclines
-CC1CC(=O)C2=C(C1)C(O)C(O)C1(O)C(O)c3c(O)cccc3C(=O)C21,Angucyclines
-CC1CC(=O)C2=C(C1)CC(O)C1(O)C(O)c3c(O)cccc3C(=O)C21O,Angucyclines
-CC1CC(=O)C2=C(C1)C1OC1C1(O)C(O)c3c(O)cccc3C(=O)C21,Angucyclines
-CC1CC(=O)C2(O)C34OC3(C=CC2(O)C1)C(O)c1c(O)cccc1C4=O,Angucyclines
+CCCCCCCCCCC(O)C1CCC(O1)C1CCC(O1)C(O)CCC(O)CCCCCCCCCC1=CC(C)OC1=O,Acetogenins
+CCCCCCCCCCC(O)C1CCC(O1)C1CCC(O1)C(O)CCCCCCCCCCC1=CC(C)OC1=O,Acetogenins
+CCCCCCCCCCC(O)C1CCC(O1)C1CCC(O1)C(O)CCCCCCCCC(O)CC1=CC(C)OC1=O,Acetogenins
+CCCCCCC(O)CCCC(O)C1CCC(O1)C1CCC(O1)C(O)CCCCCCCCCCC1=CC(C)OC1=O,Acetogenins
+CCCCCC(O)CCCCC(O)C1CCC(O1)C1CCC(O1)C(O)CCCCCCCCCCC1=CC(C)OC1=O,Acetogenins
+CCCCCCCCCCCCCCC(OC(C)=O)C1CCC(O1)C(O)CCCCC(O)CCCCCC(O)CC1=CC(C)OC1=O,Acetogenins
 CC1CC(=O)C2(O)C34OC3(CCC2(O)C1)C(O)c1c(O)cccc1C4=O,Angucyclines
 CC1CC(=O)c2c(C1)ccc1OC3OC(c4cccc(O)c34)c21,Angucyclines
 COc1cccc2C3OC(Oc4ccc5CC(C)(O)CC(=O)c5c34)c12,Angucyclines
@@ -5731,54 +5709,33 @@ COc1cc(O)c2C(=O)c3cc4C(O)C(OC5OC(C)C(O)C(OC6OCC(O)C(O)C6O)C5O)c5cc(C)c(C(=O)NC(C
 COc1cc(O)c2C(=O)c3c(O)c4C(O)C(OC5OC(C)C(O)C(OC6OCC(O)C(O)C6O)C5O)c5cc(C)c(C(=O)NC(C)C(O)=O)c(O)c5-c4c(O)c3C(=O)c2c1,Angucyclines
 COc1cc2C(=O)c3c(O)c-4c(cc3C(=O)c2c(O)c1O)C(O)C(OC1OC(C)C(O)C(OC2OCC(O)C(O)C2O)C1O)c1cc(C)c(C(=O)NC(C)C(O)=O)c(O)c-41,Angucyclines
 COc1cc(O)c2C(=O)c3cc4C(O)C(OC5OC(C)C(O)C(OC6OCC(O)C(O)C6O)C5O)c5cc(C)c(C(=O)NC(C)C(O)=O)c(O)c5-c4c(O)c3C(=O)c2c1O,Angucyclines
-COc1ccc(cc1)C1CC(c2cc3c(OC4OC(CO)C(O)C(O)C4O)c(C)c(O)c(C)c3[o+]c2-c2ccc(OC)cc2)c2c(OC3OC(CO)C(O)C(O)C3O)c(C)c(O)c(C)c2O1,Anthocyanidins
-C\C=C\Nc1cc(ccc1O)-c1[o+]c2cc(O)c(C)c(O)c2cc1O,Anthocyanidins
-CCOC1C(O)C(C)(C)Oc2cc(OC)c(C(=O)\C=C(/O)c3ccccc3)c(OC)c12,Chalcones
-Oc1ccc(CC2C(OC(C2C(=O)c2ccc(O)cc2O)c2ccc(O)cc2)c2cc(C3C(C(Oc4cc(O)ccc34)c3ccc(O)cc3)c3cc(\C=C/C(=O)c4ccc(O)cc4O)ccc3O)c(O)cc2O)cc1,Chalcones
-CC1(C)C(O)CCC2(C)Oc3c(CC12)c(O)ccc3C(=O)\C=C\c1ccc(O)cc1,Chalcones
-COc1c2OCOc2cc2C(O)C(C)C(C)Cc3c(C(O)=O)c(OC)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2C(O)C(C)C(C)Cc3c(C(O)=O)c(O)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2C3OC(C(C)C3C)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2C3OC(C(C)C3C)c3cc(OC)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2C3OC(C(C)C3C)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2C3OC(C(C)C3C)c3cc(O)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2C3OC(C(C)C3C)c3cc(O)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2C3OC(C(C)C3C)c3cc(OC)c(OC)c(O)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc-2c(C3OC(C(C)C3C)c3cc4OCOc4c(OC)c-23)c(OC)c1O,Dibenzocyclooctadiene lignans
-COc1cc-2c(C3OC(C(C)C3C)c3cc(OC)c(OC)c(OC)c-23)c(OC)c1O,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2CC3COC(C3C)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC3COC(C3C)c3cc(OC)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2C3OCC(Cc4cc5OCOc5c(OC)c4-c2c(OC)c1OC)C3C,Dibenzocyclooctadiene lignans
-COc1cc2CC3COC(C3C)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC3COC(C3C)c3cc(OC)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2C3OCC(Cc4cc5OCOc5c(OC)c4-c2c(O)c1OC)C3C,Dibenzocyclooctadiene lignans
-COc1cc2C3OCC(Cc4cc(O)c(OC)c(OC)c4-c2c(OC)c1OC)C3C,Dibenzocyclooctadiene lignans
-COc1cc2CC3COC(C3C)c3cc(OC)c(OC)c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC3(C)OC3(C)Cc3cc(OC)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2C(OC(=O)c3ccccc3)C3(CO3)C(C)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2-c3cc(OC)c(OC)c(OC)c3C(O)C(C)C(C)C(=O)c2cc1OC,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2CC(C)C3(COC3)C(OC(=O)c3ccccc3)c3cc4OCOc4c(O)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(=O)c3cc4OCOc4c(OC)c3-c2c(OC(=O)C(\C)=C/C)c1OC,Dibenzocyclooctadiene lignans
-CCC(C)C(=O)Oc1c(OC)c(OC)cc2CC(C)C(C)C(=O)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(OC(=O)C(C)C)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COC(OC)\C=C(/C)C(=O)OC1C(C)C(C)Cc2cc(OC)c(OC)c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
-CCCCCC(=O)OC1C(C)C(C)Cc2cc(OC)c(OC)c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
-CCC(C)C(=O)Oc1c(OC)c(OC)cc2CC(C)C(C)C(O)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(OC(=O)CC(C)C)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2C(OC(=O)C(C)C)C(C)C(C)Cc3cc(O)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(OC(=O)C(C)C)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-CCC(=O)OC1C(C)C(C)Cc2cc(OC)c(OC)c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(O)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(OC(C)=O)c3cc(OC)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(OC)c(OC)c(OC)c3-c2c(OC(=O)C(\C)=C/C)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(OC(=O)C(\C)=C/C)c3cc(OC)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(OC)c(OC)c(OC(=O)c4ccccc4)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
-CCC(C)C(=O)Oc1c(OC)c(OC)cc2CC(C)C(C)C(O)c3cc(OC)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(OC)c(OC)c(OC)c3-c2c(OC(=O)C(C)C)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(O)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
-COc1cc2CC(C)C(C)C(O)c3cc(O)c(OC)c(OC)c3-c2c(OC(=O)C(\C)=C/C)c1OC,Dibenzocyclooctadiene lignans
-CCC(C)C(=O)Oc1c(OC)c(OC)cc2CC(C)C(C)C(O)c3cc(O)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
-COc1c2OCOc2cc2CC(C)C(C)C(=O)c3cc(O)c(OC)c(OC)c3-c12,Dibenzocyclooctadiene lignans
+COc1cc(O)c2C(=O)c3c(O)c4C(O)C(O)c5cc(C)c(C(=O)NC(C)C(O)=O)c(O)c5-c4c(O)c3C(=O)c2c1,Angucyclines
+COc1cc(O)c2C(=O)c3cc4C(O)C(OC5OC(C)C(O)C(O)C5O)c5cc(C)c(C(=O)NC(CO)C(O)=O)c(O)c5-c4c(O)c3C(=O)c2c1,Angucyclines
+COc1cc(O)c2C(=O)c3c(CO)c4C(O)C(O)c5cc(C)c(C(=O)NC(C)C(O)=O)c(O)c5-c4c(O)c3C(=O)c2c1,Angucyclines
+CC1OC(CC(C1O)N(C)C)Oc1c(C2CC(C(O)C(C)O2)N(C)C)c(C)cc2cc(O)c3C(=O)c4c(O)cccc4C(=O)c3c12,Angucyclines
+CCCCCc1cc2CC(O)c3c(O)c4C(=O)c5c(O)cc(O)cc5C(=O)c4cc3-c2c(O)c1C(O)=O,Angucyclines
+CCC1CC(=O)c2c(C1)cc(O)c1C(=O)c3c(O)cccc3C(=O)c21,Angucyclines
+CCC1CC(=O)c2c(C1)cc(O)c1C(=O)c3c(OC4CC(NC(C)=O)C(O)C(C)O4)cccc3C(=O)c21,Angucyclines
+CCC1CC(=O)c2c(C1)cc(O)c1C(=O)c3c(OC4CC(N)C(O)C(C)O4)cccc3C(=O)c21,Angucyclines
+CCC1(O)CC(=O)c2c(C1)cc(O)c1C(=O)c3c(O)cccc3C(=O)c21,Angucyclines
+CCC1CC(=O)c2c(C1)cc(O)c1C(=O)c3c(OC)cccc3C(=O)c21,Angucyclines
+CCCCC\C=C\C=C/C(=O)OC1C(C)OC(CC1O)c1ccc2C(=O)C3=C(C=CC4(O)CC(C)=CC(=O)C34O)C(=O)c2c1O,Angucyclines
+COC1CC(OC2C=C(C)CC3(O)C(OC(C)=O)C(O)C4=C(C(=O)c5ccc(C6CC(O)C(O)C(C)O6)c(O)c5C4=O)C23O)OC(C)C1O,Angucyclines
+COC1CC(OC2CC(OC3C(C)OC(CC3O)OC3CC(OC(C)C3O)c3ccc4C(=O)C5=C(C(O)C(OC(C)=O)C6(O)CC(C)=CC(OC7CC(OC)C(O)C(C)O7)C56O)C(=O)c4c3O)OC(C)C2O)OC(C)C1O,Angucyclines
+COc1cccc2C(=O)c3c(-c12)c(O)cc1C(O)C2(C)OC2C(O)c31,Angucyclines
+CC(=O)NNc1c(O)c2-c3c(cccc3O)C(=O)c2c2C(O)C(O)C(C)(O)C(=O)c12,Angucyclines
+CC12OC1C(Nc1ccc(cc1)C(O)=O)c1c3C(=O)c4cccc(O)c4-c3c(O)cc1C2=O,Angucyclines
+CC12OC1C(c1c3C(=O)c4cccc(O)c4-c3c(O)cc1C2=O)n1oc(=O)c2ccccc12,Angucyclines
+COc1cccc2c1COC21Oc2cc(C)cc3ccc(O)c1c23,Angucyclines
+COC1OC2(Oc3cc(C)cc4ccc(O)c2c34)c2cccc(OC)c12,Angucyclines
+CC1OC(CCC1N(C)C)c1ccc2C(=O)c3c(ccc4CC(C)(O)CC(=O)c34)C(=O)c2c1O,Angucyclines
+CC1OC(CCC1N(C)C)c1ccc2C(=O)c3c4C(=O)CC(C)(O)Cc4cc(O)c3C(=O)c2c1O,Angucyclines
+CC1CC(=O)c2c(ccc3C(=O)c4c(O)cccc4C(=O)c23)C1O,Angucyclines
+OC(CC(O)=O)C(=O)OCC1OC(Oc2cc3c(O)cc(O)cc3[o+]c2-c2ccc(O)cc2)C(O)C(O)C1O,Anthocyanidins
+OC1C(COC(=O)CC(O)=O)OC(Oc2cc3c(O)cc(O)cc3[o+]c2-c2ccc(O)cc2)C(O)C1O,Anthocyanidins
+COc1cc(O)c(C(=O)\C=C\c2ccccc2)c2OC3C4OC4(CCC3(C)c12)C(C)C,Chalcones
+OCC1OC(C(O)C(O)C1O)c1c(O)ccc(C(=O)\C=C\c2ccc(O)cc2)c1O,Chalcones
+OCC1OC(C(O)C(O)C1O)c1c(O)ccc(C(=O)\C=C\c2ccccc2)c1O,Chalcones
 COC1C(C)C(C)Cc2cc3OCOc3c(OC)c2-c2c1cc(OC)c(OC)c2OC,Dibenzocyclooctadiene lignans
 COC1C(C)C(C)Cc2cc3OCOc3c(O)c2-c2c1cc(OC)c(OC)c2OC,Dibenzocyclooctadiene lignans
 COc1cc2C(OC(C)=O)C(C)C(C)Cc3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
@@ -5793,109 +5750,152 @@ COC1C(C)C(C)Cc2cc3OCOc3c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
 COc1c2OCOc2cc2CC(C)C(C)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
 COc1c2OCOc2cc2CC(C)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
 CCOC1C(C)C(C)Cc2cc3OCOc3c(OC)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
-CC(Cc1ccc2OCOc2c1)C(C)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
-OCC1OC(O\C=C/C2(CCC(COC(=O)\C(=C\c3ccc(O)cc3)\C(=C/c3ccc(O)c(O)c3)\C(=O)OCC3CCC(C=O)(\C=C/OC4OC(CO)C(O)C(O)C4O)C(O)C3)CC2O)C=O)C(O)C(O)C1O,Dibenzylbutane lignans
-COc1ccc(COc2ccc(\C=C(\C(O)=O)/C(=C\c3ccc(OCc4ccc(OC)cc4)cc3)/C(O)=O)cc2)cc1,Dibenzylbutane lignans
-COc1cc(CC(CO)C(COC2OCC(O)C(O)C2O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(COC2OC(CO)C(O)C(O)C2O)C(COC2OC(CO)C(O)C(O)C2O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(CO)Cc2ccc(OC3OC(COC(=O)c4ccc(OC)c(OC)c4)C(O)C(O)C3O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(CO)Cc2ccc(OC3OC(C)C(O)C(O)C3O)c(OC)c2)ccc1OC1OC(C)C(O)C(O)C1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(COC2OC(CO)C(O)C(O)C2O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(COC(=O)\C=C\c2ccc(O)c(OC)c2)C(CO)Cc2ccc(OC3OC(CO)C(O)C(O)C3O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(CO)Cc2ccc(OC3OC(COC(=O)\C=C\c4ccc(O)c(OC)c4)C(O)C(O)C3O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(COC2OC(C)C(O)C(O)C2O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(COC(C)=O)C(COC(C)=O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(COC(C)=O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C(COC(=O)\C=C\c2cc(OC)c(O)c(OC)c2)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1ccc(cc1)C(=O)OCC1OC(Oc2ccc(CC(CO)C(CO)Cc3ccc(O)c(OC)c3)cc2OC)C(O)C(O)C1O,Dibenzylbutane lignans
-COc1cc(CC(CO)C2(Cc3ccc(O)c(OC)c3)CO2)ccc1O,Dibenzylbutane lignans
-COc1cc(CC(COC2OC(CO)C(O)C(O)C2O)C(COC2OC(COC(=O)CC(C)(O)CC(=O)OCC3OC(OCC(Cc4ccc(O)c(OC)c4)C(COC4OC(COC(=O)CC(C)(O)CC(O)=O)C(O)C(O)C4O)Cc4ccc(O)c(OC)c4)C(O)C(O)C3O)C(O)C(O)C2O)Cc2ccc(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
-COc1cc(ccc1O)C(=O)C(\C)=C(/C)C(=O)c1ccc(O)c(OC)c1,Dibenzylbutane lignans
-COc1ccc(cc1OC)C(=O)C(\C)=C(/C)C(=O)c1ccc(OC)c(OC)c1,Dibenzylbutane lignans
-C\C(=C(\C)C(=O)c1ccc(O)cc1)C(=O)c1ccc(O)cc1,Dibenzylbutane lignans
-O=C1OCC(Cc2ccc3OCOc3c2)C1Cc1ccc2OCOc2c1,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2(O)Cc2cc(OC)c(O)c(c2)-c2cc(CC3(O)C(Cc4ccc(O)c(OC)c4)COC3=O)cc(OC)c2O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2(O)Cc2cc(OC)c(O)c(c2)-c2cc(CC3COC(=O)C3(O)Cc3ccc(O)c(OC)c3)cc(OC)c2O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2(O)C(Cc3cc(OC)c(O)c(c3)-c3cc(CC4COC(=O)C4(O)Cc4ccc(O)c(OC)c4)cc(OC)c3O)COC2=O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2Cc2cc(OC)c(O)c(c2)-c2cc(CC3COC(=O)C3(O)Cc3ccc(O)c(OC)c3)cc(OC)c2O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2C(Cc3cc(OC)c(O)c(c3)-c3cc(CC4COC(=O)C4(O)Cc4ccc(O)c(OC)c4)cc(OC)c3O)COC2=O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2Cc2cc(OC)c(O)c(c2)-c2cc(CC3COC(=O)C3Cc3ccc(O)c(OC)c3)cc(OC)c2O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2C(Cc3cc(OC)c(O)c(c3)-c3cc(CC4COC(=O)C4Cc4ccc(O)c(OC)c4)cc(OC)c3O)COC2=O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2C(Cc3ccc(OC4OC(CO)C(O)C(O)C4OC4OCC(O)(CO)C4O)c(OC)c3)COC2=O)ccc1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2Cc2ccc(OC3OC(CO)C(O)C(O)C3O)c(OC)c2)ccc1OC1OC(CO)C(O)C(O)C1O,Dibenzylbutyrolactone lignans
-COc1cc(CC2COC(=O)C2Cc2ccc(OC\C=C(/C)CCC(O)C(C)(C)O)c(OC)c2)ccc1O,Dibenzylbutyrolactone lignans
-COc1ccc(cc1)-c1cc(=O)c2ccc(O)c(C(C)=O)c2o1,Flavones
-CC1CCC(\C(C)=C\OC(C)=O)\C1=C\OC(C)=O,Iridoid monoterpenoids
-COC1OC(=O)c2c(O)cc(O)c(C)c2C1C(C)=O,Isocoumarins
-[#6]\[#6](-[#6])=[#6]\[#6]-c1c2-[#8]-[#6]-[#6](-[#6](=O)-c2c(-[#8])c2-[#6]=[#6]C([#6])([#6])[#8]-c12)-c1ccc(-[#8])cc1-[#8],Isoflavanones
-[#6]-[#8]-c1cc(-[#8])ccc1-[#6]-1-[#6]-[#8]-c2c(-[#6]\[#6]=[#6](\[#6])-[#6])c3-[#8]C([#6])([#6])[#6]=[#6]-c3c(-[#8])c2-[#6]-1=O,Isoflavanones
-COC1C(O)C(C)OC(OCC2C3OC3\C=C\C(=O)C(C)(O)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)CCC(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2\C=C\C=C\C(=O)C(C)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2\C=C\CCC(=O)C(C)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2\C=C\C=C\C(=O)C(C)(O)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2\C=C\CCC(=O)C(C)(O)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2C3OC3\C=C\C(=O)C(C)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-COC1C(O)C(C)OC(OCC2C3OC3CCC(=O)C(C)CC(C)C(OC3OC(C)CC(O)(C(C)O)C3O)C(C)\C=C\C(=O)OC2C)C1OC,Macrolides
-C\C=C1/COC(C1)\C=C(\C)C(=O)OC1CC2(C(O)CC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC34C)C2CC1(C)C)C(O)=O,Oleanane triterpenoids
-C\C=C1/COC(C1)\C=C(\C)C(=O)OC1CC2(CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC34C)C2CC1(C)C)C(O)=O,Oleanane triterpenoids
-CC1(C)CCC2(CCC3(C)C(=CC(=O)C4C5(C)CCC(O)C(C)(CO)C5CCC34C)C2C1Nc1ccccc1)C(=O)OC1OC(CO)C(O)C(O)C1O,Oleanane triterpenoids
-CCC1(C)CCC2=C1CCC1C2CC(O)C2=CC(O)C3CC12C(=O)O3,Pregnane steroids
-Cc1occc1C1(C)CCC2C(CC=C3CC(O)C(O)CC23C)C1=O,Pregnane steroids
-COC1CC(OC2C(C)OC(CC2OC)OC2C(C)OC(CC2OC)OC2CC3=CCC4C(CCC(C)(c5ccoc5C)C4=O)C3(C)CC2O)OC(C)C1O,Pregnane steroids
-COC1CC(OC2CC(OC3CC4=CCC5C(CCC(C)(c6ccoc6C)C5=O)C4(C)CC3O)OC(C)C2OC)OC(C)C1OC1CC(OC)C(OC2OC(CO)C(O)C(O)C2O)C(C)O1,Pregnane steroids
-COC1CC(OC2CC3=CCC4C(CCC(C)(c5ccoc5C)C4=O)C3(C)CC2O)OC(C)C1OC1CC(OC)C(OC2CC(OC)C(OC3OC(CO)C(O)C(O)C3O)C(C)O2)C(C)O1,Pregnane steroids
-COC1CC(OC2C(C)OC(CC2O)OC2CC(OC3CC4=CCC5C(CCC(C)(c6ccoc6C)C5=O)C4(C)CC3O)OC(C)C2OC)OC(C)C1OC1OC(CO)C(O)C(O)C1O,Pregnane steroids
-COC1CC(OC2CC3=CCC4C(CCC(C)(c5ccoc5C)C4=O)C3(C)CC2O)OC(C)C1OC1CC(OC)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(C)O1,Pregnane steroids
-COC1CC(OC2CC3=CCC4C(CCC(C)(c5ccoc5C)C4=O)C3(C)C(O)C2O)OC(C)C1OC1CC(OC)C(OC2CC(OC)C(OC3OC(CO)C(O)C(O)C3O)C(C)O2)C(C)O1,Pregnane steroids
-COc1ccc2C3COc4c(cc(O)c5OC(C)(C)C=Cc45)C3Oc2c1O,Pterocarpans
-CC(=C)C1Cc2c(O1)cc(O)c1C3Oc4cc(O)ccc4C3COc21,Pterocarpans
-COc1ccc2C3COc4c(CO)c(OC)c(O)c(O)c4C3Oc2c1,Pterocarpans
-COC12CC3C4CC=C5CC(O)CCC5(C)C4CCC3(C)C1C(C)C1(CCC(C)CO1)O2,Spirostane steroids
-CC1C2C(CC3C4CC=C5CC(O)CC5C(C)(O)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(O)C56CC5CC(OC5OC(CO)C(O)C(O)C5O)C6(C)C4CCC23C)OC11CC(OC2OC(CO)C(O)C(O)C2O)C(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(O)C56CC5CC(OC5OC(C)C(O)C(O)C5O)C6(C)C4CCC23C)OC11CC(OC2OC(CO)C(O)C(O)C2O)C(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(O)C5=CC(=O)C(O)=CC5(C)C4CCC23C)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4=CCC5=CC(=O)C(O)CC5(C)C4CC(O)C23C)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(O)C5CC(=O)C(O)CC5(C)C4CC(=O)C23C)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C2(C)CC=C2C4(C)CCC(CC44OOC32C=C4)OC2OC(CO)C(O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2(CCC(C)CO2)OC2CC3C(C)(CCC4C5(C)CCC(CC55OOC34C=C5)OC3OC(CO)C(O)C(O)C3OC3OC(C)C(O)C(O)C3O)C12O,Spirostane steroids
-CC1C2C(CC3C2(C)CCC2C4(C)CCC(CC44OOC32C=C4)OC2OC(CO)C(O)C(OC3OCC(O)(CO)C3O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C2(C)CCC2C4(C)CCC(CC44OOC32C=C4)OC2OC(CO)C(OC3OC(CO)C(O)C3O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C2(C)CCC2C4(C)CCC(CC44OOC32C=C4)OC2OC(CO)C(O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C2(C)CCC2C4(C)CCC(CC44OOC32C=C4)OC2OC(CO)C(OC3OC(C)C(O)C(O)C3O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(O)C56CC(O)C(CC5(C)C4CCC23C)O6)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4C(O)C(=O)C5(O)C(O)C(O)C(O)C(O)C5(C)C4CCC23C)OC11CC(OC2OC(CO)C(O)C(O)C2O)C(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5=CC(=O)C=CC5(C)C4CCC23C)OC11OC(=O)C(C)CC1O,Spirostane steroids
-CC1C2C(CC3C4CC=C5CC(O)CCC5(C)C4CC(=O)C23C)OC11CCC(=C)CO1,Spirostane steroids
-CC1C2(CCC(C)CO2)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4CCC3(C)C12O,Spirostane steroids
-CC1C2(CCC(=C)CO2)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4CCC3(C)C12O,Spirostane steroids
-COC1(CCC2(C)C(CCC3C4CC5OC6(CCC(C)CO6)C(C)C5(O)C4(C)C(=O)CC23)C1)OC,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(O)CCC5(C)C4CCC23C)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC(C)=O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(O)C(O)C3OC(C)=O)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(OC(C)=O)C(O)C3O)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(O)C(O)C3O)C(OC3OCC(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(O)C(O)C3O)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(COC3OCC(O)C(O)C3O)C(OC3OCC(O)C(OC4OC(CO)C(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CC(=O)C5CC(CCC5(C)C4CCC23C)OC2OC(CO)C(O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(O)CCC5(C)C4CC(=O)C23C)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OC(CO)C(O)C(O)C4O)C3OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(COC3OCC(O)C(O)C3O)C(OC3OCC(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OCC(O)C(O)C3O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(COC3OC(CO)C(O)C(O)C3O)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(OC4OC(CO)C(O)C(O)C4O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OC(CO)C(O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OCC(O)C(O)C3O)C(O)C2OC2OC(CO)C(O)C(OC3OC(CO)C(O)C(O)C3O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(OC4OC(CO)C(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3OC3OC(CO)C(O)C(OC4OC(C)C(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(OC4OC(C)C(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(OC4OC(CO)C(O)C(OC5OC(C)C(O)C(O)C5O)C4OC4OCC(O)C(O)C4O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
-CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+COC1C(C)C(C)Cc2cc3OCOc3c(OC)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
+CCOC1C(C)C(C)Cc2cc(OC)c(OC)c(OC)c2-c2c1cc(OC)c(OC)c2OC,Dibenzocyclooctadiene lignans
+CCOC1C(C)C(C)Cc2cc(O)c(OC)c(OC)c2-c2c1cc(O)c(OC)c2OC,Dibenzocyclooctadiene lignans
+COC1C(C)C(C)Cc2cc(OC)c(OC)c(OC)c2-c2c1cc(OC(C)=O)c(OC)c2OC,Dibenzocyclooctadiene lignans
+COC1C(C)C(C)Cc2cc(OC(C)=O)c(OC)c(OC)c2-c2c1cc(OC)c(OC)c2OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)C(=O)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1c(O)cc2CC(C)C(C)C(=O)c3cc(O)c(OC)c(OC)c3-c2c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)(O)Cc3cc(OC)c(OC)c(OC)c3-c2c(OC(=O)\C=C\c2ccccc2)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)(O)Cc3cc(OC4OC(CO)C(O)C(O)C4O)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)(O)C(C)Cc3cc(OC)c(OC)c(OC(=O)C(\C)=C\C)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1c(O)cc2CC(C)C(C)(O)Cc3cc(O)c(OC)c(OC)c3-c2c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)(O)C(C)Cc3cc(O)c(OC)c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)(O)Cc3cc(OC4OC(CO)C(O)C(O)C4O)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)Cc3cc(OC)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2CC(C)C(C)Cc3cc4OCOc4c(O)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(O)C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+CCC(=O)OC1C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c2cc(OC)c(OC)c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
+COc1cc2C(O)C(C)C(C)(O)C(OC(=O)c3ccccc3)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1c2OCOc2cc2C(O)C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
+COc1c2OCOc2cc2C(OC(C)=O)C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c12,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(C)=O)C(C)C(C)(O)C(OC(=O)c3ccccc3)c3cc(OC)c(OC)c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(=O)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(O)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(O)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(OC(C)=O)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(C)=O)C(C)(O)C(C)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+CCC(=O)OC1C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c2cc(OC)c(OC)c(OC)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)\C=C/c3ccccc3)C(C)(O)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(C)=O)C(C)(O)C(C)C(OC(C)=O)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)c3ccccc3)C(C)(O)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(OC)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(OC(C)=O)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(OC(C)=O)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+CCC(C)C(=O)OC1C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c2cc(OC)c(OC)c(O)c2-c2c(OC)c3OCOc3cc12,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(C)C)C(C)(O)C(C)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+CCC(=O)OC1C(C)C(C)(O)C(OC(=O)C(\C)=C/C)c2cc(OC)c(OC)c(OC)c2-c2c(O)c3OCOc3cc12,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)c3ccccc3)C(C)(O)C(C)C(O)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(C)=O)C(C)(O)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)c3ccccc3)C(C)(O)C(C)C(OC(C)=O)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(C)=O)C(C)(O)C(C)C(OC(=O)\C=C\c3ccccc3)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(OC(=O)C(\C)=C/C)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)c3ccccc3)C(C)(O)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(O)c3-c2c(OC)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)c3ccccc3)C(C)(O)C(C)C(OC(=O)c3ccccc3)c3cc4OCOc4c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1cc2C(OC(=O)C(\C)=C/C)C(C)(O)C(C)C(OC(C)=O)c3cc(OC)c(OC)c(OC)c3-c2c(O)c1OC,Dibenzocyclooctadiene lignans
+COc1ccc(CC(C)C(C)C(O)c2cc(O)c(OC)c(OC)c2)cc1OC,Dibenzylbutane lignans
+COc1cc(CC(COC(C)=O)C(C)Cc2cc(OC)c(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
+COc1cc(CC(C)C(COC(C)=O)Cc2cc(OC)c(O)c(OC)c2)ccc1O,Dibenzylbutane lignans
+COc1ccc(cc1OC)C(O)C(C)C(C)C(O)c1ccc(OC)c(OC)c1,Dibenzylbutane lignans
+CC(C(C)C(O)c1ccc2OCOc2c1)C(O)c1ccc2OCOc2c1,Dibenzylbutane lignans
+CC(C(C)C(=O)c1ccc2OCOc2c1)C(=O)c1ccc2OCOc2c1,Dibenzylbutane lignans
+Oc1ccc(\C=C\C(=O)OCC(Cc2ccc(O)c(O)c2)C(COC(=O)\C=C\c2ccc(O)cc2)Cc2ccc(O)c(O)c2)cc1,Dibenzylbutane lignans
+COCC(Cc1ccc2OCOc2c1)C(COC)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
+OCC(Cc1ccc2OCOc2c1)C(CO)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
+CC(=O)OCC(Cc1ccc2OCOc2c1)C(CO)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
+OCC(Cc1ccc2OCOc2c1)C(COC1OC(COC2OC(CO)C(O)C2O)C(O)C(O)C1O)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
+CC(=O)OCC(Cc1ccc2OCOc2c1)C(COC(C)=O)Cc1ccc2OCOc2c1,Dibenzylbutane lignans
+COc1ccc(CC(CO)C(CO)Cc2ccc(O)c(O)c2)cc1OC,Dibenzylbutane lignans
+COc1ccc(CC(CO)C(CO)Cc2ccc(OC3OC(CO)C(O)C(O)C3O)c(OC)c2)cc1O,Dibenzylbutane lignans
+COc1ccc(CC(CO)C(CO)Cc2ccc(OC3OC(CO)C(O)C(O)C3O)c(O)c2)cc1OC,Dibenzylbutane lignans
+COc1cc(CC(COC(C)=O)C(COC(C)=O)Cc2ccc(O)c(O)c2)ccc1O,Dibenzylbutane lignans
+COc1ccc(CC(CO)C(CO)Cc2ccc3OCOc3c2)cc1OC,Dibenzylbutane lignans
+COc1ccc(CC(COC(C)=O)C(CO)Cc2ccc3OCOc3c2)cc1OC,Dibenzylbutane lignans
+COc1cc(CC(CO)C(CO)Cc2ccc3OCOc3c2)ccc1O,Dibenzylbutane lignans
+COC(=O)C(Cc1ccc2OCOc2c1)C(=C/c1c(OC)cc2OCOc2c1OC)\C(=O)OC,Dibenzylbutane lignans
+COc1cc(cc2C(CO)C(Oc12)c1ccc(O)c(OC)c1)C1OC(=O)C(Cc2ccc(O)c(OC)c2)C1CO,Dibenzylbutyrolactone lignans
+COC1OCC(Cc2ccc3OCOc3c2)C1Cc1cc(OC)c(OC)c(OC)c1,Dibenzylbutyrolactone lignans
+COc1cc(CC2C(Cc3ccc4OCOc4c3)COC2O)cc2OCOc12,Dibenzylbutyrolactone lignans
+COc1cc(CC2C(Cc3ccc4OCOc4c3)COC2O)cc(OC)c1OC,Dibenzylbutyrolactone lignans
+COc1cc(CC2C(O)OCC2C(O)c2ccc(O)c(OC)c2)ccc1O,Dibenzylbutyrolactone lignans
+COc1ccc(CC2C(Cc3ccc4OCOc4c3)COC2O)cc1OC,Dibenzylbutyrolactone lignans
+COC1OCC(Cc2ccc(OC)c(OC)c2)C1Cc1ccc(OC)c(OC)c1,Dibenzylbutyrolactone lignans
+COC1OCC(Cc2ccc(O)c(OC)c2)C1Cc1ccc(OC)c(OC)c1,Dibenzylbutyrolactone lignans
+COC1OCC(Cc2ccc(O)c(OC)c2)C1Cc1ccc(O)c(OC)c1,Dibenzylbutyrolactone lignans
+COC1OCC(Cc2ccc(O)c(OC)c2)C1Cc1ccc(OC2OC(CO)C(O)C(O)C2O)c(OC)c1,Dibenzylbutyrolactone lignans
+COc1cc(CC2COC(O)C2Cc2cc(OC)c(OC3OC(CO)C(O)C(O)C3O)c(OC)c2)cc(OC)c1OC1OC(CO)C(O)C(O)C1O,Dibenzylbutyrolactone lignans
+CCCCOC(=O)Cc1cc(O)cc2oc(cc(=O)c12)-c1ccc(O)cc1,Flavones
+[#6]\[#6](-[#6])=[#6]\[#6](=O)-[#8]-[#6]1-[#6]2-[#8]C2([#6])[#6]2-[#6](-[#8]-[#6]-3-[#8]-[#6](-[#6]-[#8])-[#6](-[#8])-[#6](-[#8])-[#6]-3-[#8])-[#8]-[#6]=[#6]C12[#8],Iridoid monoterpenoids
+CC\C=C\c1cc2cccc(O)c2c(=O)o1,Isocoumarins
+[#6]-[#8]-c1cc2-[#8]-[#6]-[#6](-[#6](=O)-c2c(-[#8])c1-[#6]\[#6]=[#6](/[#6])-[#6]-[#6]\[#6]=[#6](\[#6])-[#6])-c1ccc(-[#8])cc1-[#8]-[#6],Isoflavanones
+[#6]\[#6](-[#6])=[#6]\[#6]-[#6]\[#6](-[#6])=[#6]\[#6]-c1c(-[#8])cc2-[#8]-[#6]-[#6](-[#6](=O)-c2c1-[#8])-c1ccc(-[#8])cc1-[#8],Isoflavanones
+CCC1OC(=O)\C=C\C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)CC(C)C(=O)\C=C/C=C/C1COC1OC(C)C(O)C(OC)C1OC,Macrolides
+CCC1OC(=O)\C=C\C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)CC(C)C(=O)\C=C/C=C/C1(O)COC1OC(C)C(O)C(O)C1O,Macrolides
+CCC1OC(=O)\C=C\C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)CC(C)C(=O)\C=C/C=C/C1(O)COC1OC(C)C(O)C(OC)C1OC,Macrolides
+CCC1OC(=O)\C=C\C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)CC(C)C(=O)\C=C/C=C/C1(O)COC1OC(C)C(O)C(O)C1OC,Macrolides
+CCC1OC(=O)CC(OC(C)=O)C(C)C(OC2OC(C)CC(C2O)N(C)C)C(CC=O)CC(C)C(O)\C=C\C2(C)OC2C1C,Macrolides
+CCC1OC(=O)CC(OC(=O)CC)C(C)C(OC2OC(C)CC(C2O)N(C)C)C(CC=O)CC(C)C(O)\C=C\C2(C)OC2C1C,Macrolides
+CCC1OC(=O)CC(O)C(C)C(OC2OC(C)CC(C2O)N(C)C)C(O)(CC=O)CC(C)C(=O)\C=C\C2(C)OC2C1C,Macrolides
+CC1(C)CCC2(CCC3(C)C(=CCC4C5(C)CCC(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6O)C(C)(C)C5CCC34C)C2C1)C(O)=O,Oleanane triterpenoids
+CCCCOC(=O)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C3C5CC(C)(C)CCC5(CCC43C)C(O)=O)C2(C)C)C(O)C(OC2OC(CO)C(O)C(O)C2O)C1O,Oleanane triterpenoids
+CC1OC(OC2CCC3(C)C(CCC4(C)C3CC=C3C5CC(C)(C)CCC5(CCC43C)C(O)=O)C2(C)C)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O,Oleanane triterpenoids
+CCC1C(=O)CC2C3CC=C4CC(O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(OC5OC(CO)C(O)C(O)C5O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(O)C6O)C(O)C5O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)C(O)C5O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC1OC(OC2C(O)C(OC3OC(CO)C(O)C(O)C3O)C(CO)OC2OC2CC3CCC4C5CC=C(C(C)=O)C5(C)CCC4C3(C)CC2O)C(O)C(O)C1O,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(CO)C(O)C(O)C6O)C(O)C5O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC(=O)C1=CCC2C3CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(O)C6OC6OCC(O)C(O)C6O)C(O)C5O)C(O)CC4(C)C3CCC12C,Pregnane steroids
+CC1(C)CCc2c3OC4C(COc5cc6OC(C)(C)C=Cc6c(O)c45)c3ccc2O1,Pterocarpans
+[#6]-[#8]-c1c(-[#6]\[#6]=[#6](/[#6])-[#6]-[#6]\[#6]=[#6](\[#6])-[#6])c(-[#8])cc2-[#8]-[#6]-[#6]-3-[#6](-[#8]-c4c-3cc(-[#8])c3-[#8]C([#6])([#6])[#6]=[#6]-c43)-c12,Pterocarpans
+COc1ccc2C3COc4cc(O)c(c(O)c4C3Oc2c1)C(C)(C)C=C,Pterocarpans
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(OC4OC(CO)C(O)C(O)C4OC4OCC(O)C(O)C4O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OCC(O)C(O)C3O)C(O)C2OC2OC(CO)C(O)C(OC3OC(CO)C(OC4OCC(O)C(O)C4O)C(O)C3O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(OC5OC(CO)C(O)C(O)C5O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OC(CO)C(O)C(O)C4O)C3OC3OCC(O)C(O)C3O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CCC5CC(CCC5(C)C4CC(=O)C23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OC(CO)C(O)C(O)C4O)C3OC3OCC(O)C(OC4OCC(O)C(O)C4O)C3O)C(O)C2O)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC(=O)C5(O)C(O)C(O)C(O)C(O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC5OC(=O)CC5C(C)(CC(O)=O)C4CCC23C)OC11CCC(C)CO1,Spirostane steroids
+CCC(C)(O)C1OC2(OC1=O)C(C)OC(OC1C(O)C3(OC4CC5C6CC=C7CC(O)CC(OC8OCC(O)C(O)C8OC8OC(C)C(OC(C)=O)C(OC(C)=O)C8OC(C)=O)C7(C)C6CCC5(C)C4C3C)OCC1=C)C(O)C2O,Spirostane steroids
+CC1C2C(CC3C4CC=C5C=CCCC5(C)C4CCC23C)OC11CCC(C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(CC(OC(C)=O)C5(C)C4CCC23C)OC2OC(CO)C(O)C(O)C2O)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(O)C(O)C6OC6OC(C)C(O)C(O)C6OC(C)=O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(O)C(O)C6OC6OC(C)C(O)C(OC(C)=O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(OC(C)=O)C(O)C6OC6OC(C)C(O)C(OC7OC(CO)C(O)C(O)C7O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(OC7OC(CO)C(O)C(O)C7O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(CO)C(OC7OC(CO)C(O)C(OC8OC(CO)C(O)C(O)C8O)C7OC7OC(C)C(O)C(O)C7O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(CO)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(CO)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(CC(O)C5(C)C4CCC23C)OC2OCC(OC(C)=O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(OC(C)=O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CCC(C)C(O)C(=O)OC1COC(OC2CC(O)CC3=CCC4C5CC6OC7(CCC(=C)CO7)C(C)C6C5(C)CCC4C23C)C(OC2OC(C)C(O)C(O)C2O)C1OC(C)=O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(CC(O)C5(C)C4CCC23C)OC2OCC(OS(O)(=O)=O)C(OC(C)=O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(CC(O)C5(C)C4CCC23C)OC2OCC(O)C(O)C2OC2OC(C)C(O)C(O)C2O)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)C(O)C(O)C5(C)C4CC(O)C23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(OC6OC(CO)C(O)C(O)C6O)C(O)C(O)C5(C)C4CC(O)C23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(OC6OC(CO)C(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C(O)C(O)C5(C)C4CC(O)C23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)C(O)C(OC6OC(CO)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)CC1O,Spirostane steroids
+CC1C2(CCC(=C)CO2)OC2CC3(O)C4CC=C5CC(O)CC(O)C5(C)C4CCC3(C)C12O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(O)C6OC(C)=O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(O)C6OC(C)=O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(OC(C)=O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(OC(C)=O)C6OC(C)=O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(OC(C)=O)C6OC(C)=O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(OC2OC(C)C(O)C(O)C2O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OC(C)C(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(OC2OC(C)C(O)C(O)C2O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)CC(OC6OCC(O)C(OC7OCC(O)C(O)C7O)C6OC6OC(C)C(O)C(O)C6O)C5(C)C4CCC23C)OC11OCC(=C)C(OC2OC(CO)C(O)C(O)C2O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(CC(O)C5(C)C4CCC23C)OC2OC(C)C(O)C(OC3OC(C)C(O)C(O)C3O)C2OC2OCC(O)C(O)C2O)OC11OCC(=C)C(OC2OCC(O)C(O)C2O)C1O,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)C(O)C(O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(O)C(O)C(OC6OC(CO)C(O)C(O)C6O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(OC6OC(CO)C(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C(O)C(O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
+CC1C2C(CC3C4CC=C5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(C)C(O)C(O)C6O)C(O)C(O)C5(C)C4CCC23C)OC11CCC(=C)CO1,Spirostane steroids
