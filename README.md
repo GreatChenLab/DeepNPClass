@@ -2,8 +2,6 @@
 
 A hybrid deep learning model integrating molecular graph and fingerprint features for natural product classification (Pathway / Superclass / Class).
 
-Given a CSV of SMILES strings, DeepNPClass predicts chemical categories such as alkaloids, flavonoids, and terpenoids.
-
 ## Environment
 
 Python 3.8+ is recommended. Create and activate a Conda environment:
