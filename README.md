@@ -1,28 +1,81 @@
-# DeepNPClass: A Hybrid Deep Learning Model Integrating Molecular Graph and Fingerprint Features for Hierarchical Natural Product Classification
-DeepNPClass is a deep learning-based tool that automatically classify natural products. Given a CSV file containing SMILES strings, this tool predicts their chemical classes (e.g., alkaloids, flavonoids, terpenoids, etc.).
+# DeepNPClass
 
-# Environment
-1.The project relies on dependencies specified in requirements.txt. We recommend using Conda to manage the environment.
-Create and activate a new Conda environment (Python 3.8 is recommended):
-```
+A hybrid deep learning model integrating molecular graph and fingerprint features for natural product classification (Pathway / Superclass / Class).
+
+Given a CSV of SMILES strings, DeepNPClass predicts chemical categories such as alkaloids, flavonoids, and terpenoids.
+
+## Environment
+
+Python 3.8+ is recommended. Create and activate a Conda environment:
+
+```bash
 conda create -n deepnpclass python=3.8 -y
 conda activate deepnpclass
-```
-2.Install all dependencies from the requirements.txt file:
 pip install -r requirements.txt
-
-# Prepare Your Input Data
-Create a CSV file (e.g., data/example.csv) that contains a column with your SMILES strings.
 ```
+
+## Project layout
+
+```
+DeepNPClass-main/
+├── data/
+│   ├── example.csv                 # prediction input example
+│   ├── train_data.csv              
+│   ├── validation_data.csv         
+│   ├── NPClassifier_dataset.xlsx   
+│   └── independent external test set/   
+│       ├── pathway_subset.csv      
+│       ├── superclass_subset.csv   
+│       └── class_subset.csv        
+├── models/                         
+├── results/                        # prediction outputs
+├── scripts/
+│   ├── pred_main.py             # prediction entry
+│   └── train_main.py            # training entry (--level)
+└── src/                         
+```
+
+## Prediction
+
+### Input
+
+Put a CSV under `data/` (e.g. `data/example.csv`). The first column should be SMILES:
+
+```text
 C=C1CC23CC1CCC2C1(C)CCCC(C)(C(=O)O)C1C3C(=O)O
 CCCCCCCC/C=C\CCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\CCCCCCCCC)COP(=O)(O)OC[C@@H](O)CO
-...
 ```
 
-# Run the Prediction
-Place your input file in the data/directory and execute the prediction script.
-```
-python -m scripts.pred_main
+Default input path in the script: `data/example.csv`.
+
+### Run
+
+From the **project root**:
+
+```bash
+python scripts/pred_main.py
 ```
 
-The prediction results will be saved to results/predictions.csv.
+### Output
+
+Results are written to:
+
+```text
+results/example_predictions.csv
+```
+
+The file includes SMILES, predicted labels for pathway / superclass / class, and per-class probabilities.
+
+## Training
+
+Training is shared through one entry script. Choose the hierarchy level with `--level`.
+
+```bash
+python scripts/train_main.py --level pathway
+python scripts/train_main.py --level superclass
+python scripts/train_main.py --level class
+```
+
+## License
+
+See `LICENSE`.
