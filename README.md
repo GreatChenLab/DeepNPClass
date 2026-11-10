@@ -18,19 +18,70 @@ pip install -r requirements.txt
 DeepNPClass-main/
 ├── data/
 │   ├── example.csv                 # prediction input example
-│   ├── train_data.csv              
-│   ├── validation_data.csv         
-│   ├── NPClassifier_dataset.xlsx   
-│   └── independent external test set/   
-│       ├── pathway_subset.csv      
-│       ├── superclass_subset.csv   
-│       └── class_subset.csv        
-├── models/                         
-├── results/                        # prediction outputs
+│   ├── train_data.csv
+│   ├── validation_data.csv
+│   ├── NPClassifier_dataset.xlsx
+│   └── independent external test set/
+│       ├── pathway_subset.csv
+│       ├── superclass_subset.csv
+│       ├── class_subset.csv
+│       └── inchikey_deduplicated/  # InChIKey-deduplicated subsets
+│           ├── pathway_subset.csv
+│           ├── superclass_subset.csv
+│           ├── class_subset.csv
+│           └── dedup_by_inchikey.py
+├── models/
+│   ├── pathway_model.pth
+│   ├── superclass_model.pth
+│   ├── class_model.pth
+│   ├── mlb_pathway.pkl
+│   ├── mlb_superclass.pkl
+│   └── mlb_class.pkl
+├── results/                        # prediction / evaluation outputs
 ├── scripts/
 │   ├── pred_main.py             # prediction entry
-│   └── train_main.py            # training entry (--level)
-└── src/                         
+│   ├── train_main.py            # training entry (--level)
+│   └── eval_external.py         # external test evaluation
+└── src/
+    └── attention_model.py       # attention-augmented architecture (interpretability)
+```
+
+## Data preprocessing
+
+Released `train_data.csv` / `validation_data.csv` are already split (62,411 / 15,925).  
+During training and inference, each SMILES is converted to:
+
+- an undirected molecular graph with atomic numbers as node features;
+- a concatenated fingerprint vector: RDKit topological fingerprint (4,096 bits) + MACCS (167 bits).
+
+Label columns used by level: `Pathway`, `Super_class`, `Class`.  
+Invalid SMILES that cannot be parsed into graphs are dropped before training or prediction.
+
+## Reproduce principal results
+
+From the **project root**, after installing dependencies:
+
+```bash
+# 1) Run inference with released checkpoints
+python scripts/pred_main.py
+# -> results/example_predictions.csv
+
+# 2) Predict on InChIKey-deduplicated external subsets
+python scripts/eval_external.py
+# -> results/external_{pathway,superclass,class}_predictions.csv
+
+# 3) (Optional) Retrain from released data
+python scripts/train_main.py --level pathway
+python scripts/train_main.py --level superclass
+python scripts/train_main.py --level class
+# -> models/{pathway,superclass,class}_model.pth and mlb_*.pkl
+```
+
+Expected released checkpoints under `models/`:
+
+```text
+pathway_model.pth / superclass_model.pth / class_model.pth
+mlb_pathway.pkl / mlb_superclass.pkl / mlb_class.pkl
 ```
 
 ## Prediction
@@ -48,15 +99,11 @@ Default input path in the script: `data/example.csv`.
 
 ### Run
 
-From the **project root**:
-
 ```bash
 python scripts/pred_main.py
 ```
 
 ### Output
-
-Results are written to:
 
 ```text
 results/example_predictions.csv
@@ -73,6 +120,45 @@ python scripts/train_main.py --level pathway
 python scripts/train_main.py --level superclass
 python scripts/train_main.py --level class
 ```
+
+Training and inference use the same naming convention: `{level}_model.pth` with `mlb_{level}.pkl`.
+
+## Independent external test set (InChIKey deduplication)
+
+Raw external subsets are under `data/independent external test set/`.  
+For evaluation, molecules matching the training or validation set by **full InChIKey** were removed. Deduplicated files (pathway 1394 + superclass 1380 + class 5073 = **7847**) are in:
+
+```text
+data/independent external test set/inchikey_deduplicated/
+```
+
+Rebuild them from the project root with:
+
+```bash
+python "data/independent external test set/inchikey_deduplicated/dedup_by_inchikey.py"
+```
+
+### External evaluation
+
+Run prediction on the InChIKey-deduplicated subsets:
+
+```bash
+python scripts/eval_external.py
+python scripts/eval_external.py --level pathway
+```
+
+Outputs:
+
+```text
+results/external_pathway_predictions.csv
+results/external_superclass_predictions.csv
+results/external_class_predictions.csv
+```
+
+## Attention interpretability
+
+Atom-level attention analysis in the paper uses a **separately trained** attention-augmented model, distinct from the released Pathway/Superclass/Class predictors.  
+This repository releases the architecture in `src/attention_model.py` for reference. Reproducing the main classification results does **not** require the attention model.
 
 ## License
 
