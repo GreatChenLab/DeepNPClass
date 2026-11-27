@@ -126,7 +126,7 @@ Training and inference use the same naming convention: `{level}_model.pth` with 
 ## Independent external test set (InChIKey deduplication)
 
 Raw external subsets are under `data/independent external test set/`.  
-For evaluation, molecules matching the training or validation set by **full InChIKey** were removed. Deduplicated files (pathway 1394 + superclass 1380 + class 5073 = **7847**) are in:
+For evaluation, molecules matching the training or validation set by **full InChIKey** were removed. Deduplicated files (pathway 1382 + superclass 1372 + class 5015 = **7769**) are in:
 
 ```text
 data/independent external test set/inchikey_deduplicated/
