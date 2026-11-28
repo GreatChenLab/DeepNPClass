@@ -37,13 +37,18 @@ DeepNPClass-main/
 │   ├── mlb_pathway.pkl
 │   ├── mlb_superclass.pkl
 │   └── mlb_class.pkl
-├── results/                        # prediction / evaluation outputs
+├── results/                        # prediction / evaluation outputs (+ *.meta.json)
 ├── scripts/
-│   ├── pred_main.py             # prediction entry
+│   ├── pred_main.py             # prediction entry (writes CSV + sidecar meta JSON)
 │   ├── train_main.py            # training entry (--level)
 │   └── eval_external.py         # external test evaluation
-└── src/
-    └── attention_model.py       # attention-augmented architecture (interpretability)
+├── src/
+│   ├── model.py / train.py / predict.py / data_utils.py
+│   ├── run_metadata.py          # prediction-run sidecar metadata writer
+│   └── attention_model.py       # attention-augmented architecture (interpretability)
+├── reproducibility_metadata.json  # provenance for released paper results
+├── requirements.txt
+└── README.md
 ```
 
 ## Data preprocessing
@@ -65,6 +70,7 @@ From the **project root**, after installing dependencies:
 # 1) Run inference with released checkpoints
 python scripts/pred_main.py
 # -> results/example_predictions.csv
+# -> results/example_predictions.meta.json
 
 # 2) Predict on InChIKey-deduplicated external subsets
 python scripts/eval_external.py
@@ -107,9 +113,20 @@ python scripts/pred_main.py
 
 ```text
 results/example_predictions.csv
+results/example_predictions.meta.json
 ```
 
-The file includes SMILES, predicted labels for pathway / superclass / class, and per-class probabilities.
+The CSV includes SMILES, predicted labels for pathway / superclass / class, and per-class probabilities.  
+The sidecar `.meta.json` records decision rules/thresholds, execution time (UTC), software and model versions, artifact hashes, and key configuration parameters for that run.
+
+## Reproducibility and metadata
+
+Two complementary metadata layers are provided:
+
+1. **`reproducibility_metadata.json`** (repository root) — static provenance for the **released paper results**: classification rules, decision thresholds, training run timestamps, software/model versions, fold-split hashes, and artifact checksums.
+2. **`results/*.meta.json`** (written by `scripts/pred_main.py`) — **per-run** sidecar next to each prediction CSV, documenting the exact execution used to produce that output.
+
+Together they support both retrospective traceability of published results and prospective documentation of future predictions.
 
 ## Training
 
